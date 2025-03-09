@@ -53,7 +53,7 @@ as Home Assistant's. For example, this configuration would achieve your desired 
 
 Let's step through what's happening here:
 
-.. code-block:: yaml
+.. code-block:: 
 
     switch:
        - platform: gpio
@@ -68,7 +68,7 @@ automation.
 Triggers
 --------
 
-.. code-block:: yaml
+.. code-block:: 
 
     binary_sensor:
       - platform: gpio
@@ -81,7 +81,7 @@ a "trigger". In this example, the *automation* which follows on the next few lin
 happens when you begin pressing the button. There are also other triggers like ``on_release``, ``on_click`` or
 ``on_double_click`` available.
 
-.. code-block:: yaml
+.. code-block:: y
 
     # ...
     on_press:
